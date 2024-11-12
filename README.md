@@ -20,3 +20,18 @@ randomly without memory instead of systematically trying them?
 
 Describe your reasoning and the conclusion you've come to. Your reasoning is the
 most important part. Add your answer to this markdown file.
+
+## Plagarism Statement
+
+All exercises must contain the following statement:
+“I certify that I have listed all sources used to complete this exercise, including the use
+of any Large Language Models. All of the work is my own, except where stated
+otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is
+suspected, charges may be filed against me without prior notice.”
+
+## Note
+I am attempting this from scratch, I will compare it to my last semesters repository and make any corrections needed based on that code and response.
+
+## Answer
+
+The best case would be if innitial list was already in order, then the algorithm would just have to check once to confirm the order, which has a runtime complexity of $\Theta(n)$. On the otherhand the worst case depends on the implementation of the algorithm, with the difference being whether or not you keep track of the permutations that occur. In order to ensure the brute force will eventually find the sorted list, keeping trtack of the previously generated permutations is key, the complexity for this is $\Theta(n*n!)$, because $n!$ is the maximum number of possible permutations for a list of a given size, and $n$ comes from checking the prior permutations. Another way of brute forcing is randomly generating permutations but without keeping track of them as they are generate, with this algorithm, there is not garuntee that the correctly ordered list will ever be found, so the runtime complexity is infinity in that case.
