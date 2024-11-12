@@ -30,6 +30,8 @@ otherwise. I am aware that plagiarism carries severe penalties and that if plagi
 suspected, charges may be filed against me without prior notice.”
 
 ## Note
-I am attempting this from scratch, I will compare it to my last semesters repository and make any corrections needed base on that.
+I am attempting this from scratch, I will compare it to my last semesters repository and make any corrections needed based on that code and response.
 
 ## Answer
+
+The best case would be if innitial list was already in order, then the algorithm would just have to check once to confirm the order, which has a runtime complexity of $\Theta(n)$
